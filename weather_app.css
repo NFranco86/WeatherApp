@@ -1,0 +1,59 @@
+@media only screen and (max-height: 500px) {
+    .container {
+        position: relative;
+    }
+}
+
+.formcontainer {
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    height: auto;
+    margin-bottom: auto;
+}
+
+input{
+    text-align: center;
+}
+
+.dayContainer {
+  padding: 5px;
+  border-top: 3px solid teal;
+  width: 100%;
+  position: absolute;
+  bottom: -300px;
+  display: flex;
+  text-align: center;
+  border-bottom: 3px solid teal;
+  font-family: Arial;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    min-width: 100%;
+    position: absolute;
+}
+
+.contain {
+  flex:1;
+  font-size: 3.5vh;
+  border-right: 3px solid black;
+}
+
+.temp {
+    margin-bottom: auto;
+}
+
+.days {
+    margin-top: 20px;
+}
+
+#temp {
+    font-size: 55px;
+}
+
+#ambientWeather {
+    margin-bottom: 3px;
+    font-size: 35px;
+}
